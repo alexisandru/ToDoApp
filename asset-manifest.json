@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/ToDoApp/static/js/main.93547050.chunk.js",
-    "main.js.map": "/ToDoApp/static/js/main.93547050.chunk.js.map",
+    "main.js": "/ToDoApp/static/js/main.2cd36e60.chunk.js",
+    "main.js.map": "/ToDoApp/static/js/main.2cd36e60.chunk.js.map",
     "runtime-main.js": "/ToDoApp/static/js/runtime-main.afd8a4ce.js",
     "runtime-main.js.map": "/ToDoApp/static/js/runtime-main.afd8a4ce.js.map",
-    "static/js/2.00392833.chunk.js": "/ToDoApp/static/js/2.00392833.chunk.js",
-    "static/js/2.00392833.chunk.js.map": "/ToDoApp/static/js/2.00392833.chunk.js.map",
+    "static/js/2.1f0eac10.chunk.js": "/ToDoApp/static/js/2.1f0eac10.chunk.js",
+    "static/js/2.1f0eac10.chunk.js.map": "/ToDoApp/static/js/2.1f0eac10.chunk.js.map",
     "index.html": "/ToDoApp/index.html",
-    "static/js/2.00392833.chunk.js.LICENSE.txt": "/ToDoApp/static/js/2.00392833.chunk.js.LICENSE.txt",
+    "static/js/2.1f0eac10.chunk.js.LICENSE.txt": "/ToDoApp/static/js/2.1f0eac10.chunk.js.LICENSE.txt",
     "static/media/bulb.f0999f23.svg": "/ToDoApp/static/media/bulb.f0999f23.svg",
     "static/media/delete.da9ca8ee.svg": "/ToDoApp/static/media/delete.da9ca8ee.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.afd8a4ce.js",
-    "static/js/2.00392833.chunk.js",
-    "static/js/main.93547050.chunk.js"
+    "static/js/2.1f0eac10.chunk.js",
+    "static/js/main.2cd36e60.chunk.js"
   ]
 }
