@@ -11,7 +11,7 @@ const App = () => {
 
   const [todos, setTodos] = useState([])
   
-  const [darkState, setDarkState] = useState();
+  const [darkState, setDarkState] = useState(dark);
  
 
   // get todos of local storage on the load
