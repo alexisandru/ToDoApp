@@ -15,6 +15,7 @@ const App = () => {
  
 
   // get todos of local storage on the load
+  /*
   useEffect(() => {
     let content = localStorage.getItem('todos')
     if (content) {
@@ -26,7 +27,7 @@ const App = () => {
       setDarkState(JSON.parse(darkMode))
     }
 
-  }, [])
+  }, [])*/
 
   // update the local storage every time state change
   useEffect(() => {
