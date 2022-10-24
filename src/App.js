@@ -8,13 +8,14 @@ import CreateTodo from './components/CreateTodo'
 import ShowTodos from './components/ShowTodos'
 
 const App = () => {
-
+ 
   const [todos, setTodos] = useState([])
   
-  const [darkState, setDarkState] = useState();
+  const [darkState, setDarkState] = useState(false);
  
 
   // get todos of local storage on the load
+  
   useEffect(() => {
     let content = localStorage.getItem('todos')
     if (content) {
@@ -23,19 +24,20 @@ const App = () => {
     
     let darkMode = localStorage.getItem('pageMode')
     if (darkMode) {
-      setDarkState(JSON.parse(darkMode))
+      setDarkState(darkMode)
     }
 
   }, [])
 
   // update the local storage every time state change
- /* useEffect(() => {
+ useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos))
   }, [todos])
 
   useEffect(() => {
     localStorage.setItem('pageMode', darkState)
-  }, [darkState])*/
+  }, [darkState])
+
 
   
   // add todo to state
