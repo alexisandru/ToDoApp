@@ -29,13 +29,13 @@ const App = () => {
   }, [])
 
   // update the local storage every time state change
-  useEffect(() => {
+ /* useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos))
   }, [todos])
 
   useEffect(() => {
     localStorage.setItem('pageMode', darkState)
-  }, [darkState])
+  }, [darkState])*/
 
   
   // add todo to state
