@@ -35,7 +35,7 @@ const App = () => {
   }, [todos])
 
   useEffect(() => {
-    localStorage.setItem('pageMode', darkState)
+    localStorage.setItem('pageMode', JSON.stringify(darkState))
   }, [darkState])
 
   
